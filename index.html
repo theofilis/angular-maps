@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/base.min.css">
+</head>
+
+<body ng-app="app">	
+	<div class="container" ng-controller="MyCtrl">
+		<h1>Google Map App</h1>
+		<formly-form result="formData" fields="formFields" options="formOptions" ng-submit="onSubmit()">
+    </formly-form>
+		
+		<h3>Find point on Map</h3>
+		<google-map center="map.center" zoom="map.zoom">
+			<marker coords="map.center"></marker>
+		</google-map>
+	</div>
+	
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-formly/dist/formly.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<script src='http://maps.googleapis.com/maps/api/js?sensor=false'></script>
+	<script src='bower_components/lodash/dist/lodash.underscore.min.js'></script>
+	<script src='bower_components/angular-google-maps/dist/angular-google-maps.min.js'></script>
+	
+	<script src="assets/js/app.min.js"></script>
+</body>
+</html>
