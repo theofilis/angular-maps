@@ -1,0 +1,47 @@
+{
+  "name": "angular-formly",
+  "version": "0.0.11",
+  "authors": [
+    "Grant Helton <ghelton@gmail.com>"
+  ],
+  "main": [
+    "dist/formly.min.js",
+    "dist/formly.min.map"
+  ],
+  "description": "AngularJS directive which takes JSON representing a form and renders to HTML",
+  "keywords": [
+    "AngularJs",
+    "form",
+    "formly",
+    "json",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.10",
+    "bootstrap": "~3.1.1"
+  },
+  "devDependencies": {
+    "angular-ui-router": "#0.2.8-bowratic-tedium",
+    "angular-highlightjs": "~0.2.1",
+    "highlightjs": "~8.0.0"
+  },
+  "homepage": "https://github.com/nimbly/angular-formly",
+  "_release": "0.0.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.11",
+    "commit": "bf785cb85fb30f5b953179826674411441413a65"
+  },
+  "_source": "git://github.com/nimbly/angular-formly.git",
+  "_target": "~0.0.11",
+  "_originalSource": "angular-formly",
+  "_direct": true
+}
